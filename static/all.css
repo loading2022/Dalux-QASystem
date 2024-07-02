@@ -67,15 +67,15 @@ h1 {
     font-size: 30px;
     font-weight: bolder;
 }
-
+img{
+	width:fit-content;
+}
 .wrap {
     max-width: 1296px;
     margin: 0 auto;
     display: flex;
 }
-img{
-    width:150px;
-}
+
 
 .left-navbar {
     width: 20%;
@@ -197,10 +197,11 @@ button i {
     color: #fff;
 }
 #startBtn, #stopBtn {
-    padding: 10px 15px;
+    padding: 5px 5px;
     background-color: #337ab7;
     border: none;
     cursor: pointer;
+    width:20px;
 }
 #stopBtn {
     background-color: #d9534f;
