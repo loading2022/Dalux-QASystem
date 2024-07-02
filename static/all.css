@@ -67,8 +67,9 @@ h1 {
     font-size: 30px;
     font-weight: bolder;
 }
-img{
-	width:fit-content;
+
+header img{
+   width:150px;
 }
 .wrap {
     max-width: 1296px;
@@ -197,14 +198,20 @@ button i {
     color: #fff;
 }
 #startBtn, #stopBtn {
-    padding: 5px 5px;
+    padding: 10px 10px;
     background-color: #337ab7;
     border: none;
     cursor: pointer;
-    width:20px;
+    width:50px;
+}
+#startBtn img{
+   width:100%;
 }
 #stopBtn {
-    background-color: #d9534f;
+    background-color: lightgray;
+}
+#stopBtn img{
+   width:120%;
 }
 #startBtn:hover, #stopBtn:hover {
     opacity: 0.8;
