@@ -59,7 +59,7 @@ def get_response():
             response = chain.invoke({"input_documents": docs,"question":user_input}, return_only_outputs=True)
         cc = OpenCC('s2t')
         answer=cc.convert(response['output_text'])
-        
+        print(answer)
         chat_history.append({'user': user_input, 'assistant': response['output_text']})
         return jsonify({'response': answer})
 
