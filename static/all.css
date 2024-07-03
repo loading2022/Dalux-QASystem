@@ -178,6 +178,9 @@ button i {
 #stopBtn {
     background-color: #d9534f;
 }
+#startBtn img, #stopBtn img{
+    width:30px;
+}
 #startBtn:hover, #stopBtn:hover {
     opacity: 0.8;
 }
